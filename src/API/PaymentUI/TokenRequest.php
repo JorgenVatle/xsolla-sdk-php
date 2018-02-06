@@ -109,7 +109,7 @@ class TokenRequest
     }
     
     /**
-     * @param $amount
+     * @param $quantity
      */
     public function setVirtualCurrency($quantity) {
         $this->data['purchase']['virtual_currency']['quantity'] = $quantity;
